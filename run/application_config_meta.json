@@ -1,0 +1,295 @@
+{
+  "keys": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js",
+  "view": {
+    "defaultViewEngine": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js",
+    "mapping": {
+      ".tpl": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js"
+    },
+    "root": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js",
+    "cache": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-view@2.1.2@egg-view/config/config.local.js",
+    "defaultExtension": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-view@2.1.2@egg-view/config/config.default.js"
+  },
+  "cors": {
+    "origin": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js"
+  },
+  "mysql": {
+    "client": {
+      "host": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js",
+      "port": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js",
+      "user": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js",
+      "password": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js",
+      "database": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js"
+    },
+    "app": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js",
+    "agent": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js",
+    "default": {
+      "database": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-mysql@3.0.0@egg-mysql/config/config.default.js"
+    }
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js",
+    "json": "/Users/lbr/code/test/nodejs/egg_dome/config/config.default.js",
+    "appErrorFilter": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js",
+    "templatePath": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-onerror@2.1.0@egg-onerror/config/config.default.js"
+  },
+  "session": {
+    "maxAge": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "key": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "httpOnly": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js",
+    "encrypt": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-session@3.1.0@egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "useSession": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "cookieName": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "sessionName": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "headerName": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "bodyName": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "queryName": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.local.js",
+      "maxAge": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "value": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "policy": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js",
+      "checkAddress": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-security@2.5.0@egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "callback": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js",
+    "csrf": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-jsonp@2.0.0@egg-jsonp/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "dirs": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "queryField": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieField": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-i18n@2.0.0@egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js",
+      "development": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-watcher@3.1.0@egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-schedule@3.6.1@egg-schedule/config/config.default.js",
+      "file": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-schedule@3.6.1@egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-schedule@3.6.1@egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "autoFields": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fields": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fileSize": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "files": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "whitelist": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-multipart@2.4.0@egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "fastReady": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js",
+    "overrideDefault": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-development@2.4.2@egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-logrotator@3.0.7@egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dir": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "dynamic": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "preload": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "buffer": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js",
+    "maxFiles": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-static@2.2.0@egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-view-nunjucks@2.2.0@egg-view-nunjucks/config/config.local.js"
+  },
+  "validate": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg-validate@2.0.2@egg-validate/config/config.default.js",
+  "env": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "name": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "proxy": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "protocolHeaders": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "ipHeaders": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "hostHeaders": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "version": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "description": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "main": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "scripts": {
+      "dev": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "start": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "stop": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "author": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "license": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "dependencies": {
+      "cheerio": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-cors": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-mysql": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-onerror": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-scripts": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "iconv-lite": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "js-md5": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "egg-validate": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "HOME": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "rundir": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "notFound": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "sitefile": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "middlewares": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "httpClient": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "encoding": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "formLimit": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "jsonLimit": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "strict": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "depth": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "parameterLimit": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "encoding": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "env": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "level": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "consoleLevel": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "outputJSON": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "buffer": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "appLogName": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "coreLogName": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "agentLogName": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "errorLogName": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "maxSockets": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "maxSockets": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "maxFreeSockets": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "logging": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "workerStartTimeout": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "serverTimeout": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "port": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+      "hostname": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js",
+    "responseTimeout": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+  },
+  "onClientError": "/Users/lbr/code/test/nodejs/egg_dome/node_modules/_egg@2.20.2@egg/config/config.default.js"
+}
